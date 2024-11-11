@@ -40,3 +40,5 @@ When a user sends a message, the bot will log it with a blue color.
 **User**: @username  
 **Message**: "Hello, world!"  
 **Sent At**: 2024-10-01 14:50:00 UTC
+
+`I'm currently working on the function to log all files the users share`
