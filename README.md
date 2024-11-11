@@ -20,21 +20,9 @@ To install and run the bot, you need to have Python 3.8+ installed on your machi
 ### Steps
 
 1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/rloIV/discord-logger-bot.git
-    cd discord-logger-bot
-    ```
+    Make sure to create a new file named however you want that you will later run via `main.py` or other root file.
 
-2. **Set up your bot token**:
-    - Go to the [Discord Developer Portal](https://discord.com/developers/applications).
-    - Create a new bot and copy its token.
-    - Create a `config.py` file in the root directory of the project with the following contents:
-      ```python
-      DISCORD_BOT_TOKEN = 'your-bot-token'
-      APPLICATION_ID = 'your-application-id'
-      ```
-
-3. **Run the bot**
+2. **Run the bot**
 
 ## Commands
 
@@ -45,3 +33,10 @@ To install and run the bot, you need to have Python 3.8+ installed on your machi
 
 When an event occurs, the bot will log it in the designated channel. Each log will include an embed with the details of the event and will be color-coded based on the event type.
 
+- Message Event (Blue)
+When a user sends a message, the bot will log it with a blue color.
+
+**Event**: Message Sent  
+**User**: @username  
+**Message**: "Hello, world!"  
+**Sent At**: 2024-10-01 14:50:00 UTC
